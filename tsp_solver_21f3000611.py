@@ -30,9 +30,7 @@ def print_tour(tour):
 
 def main():
     metric_type, n, coordinates, distance_matrix = parse_input()
-
     tour, total_cost = nearest_neighbor_algorithm(distance_matrix)
-
     print_tour(tour)
 
 if __name__ == "__main__":
